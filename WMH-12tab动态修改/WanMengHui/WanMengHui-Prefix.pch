@@ -1,0 +1,23 @@
+//
+//  WanMengHui-Prefix.pch
+//  WanMengHui
+//
+//  Created by hannchen on 16/8/16.
+//  Copyright © 2016年 qing. All rights reserved.
+//
+
+#ifndef WanMengHui_Prefix_pch
+#define WanMengHui_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "PrefixSetting.h"
+
+#import "URLConstant.h"
+
+
+#endif /* WanMengHui_Prefix_pch */

@@ -1,0 +1,50 @@
+登陆接口
+
+http://threelevel.yun.dodi.cn/api/checklogin.php
+GET、POST
+参数
+username = 15918585473
+password = 15918585473
+code     = WMH
+type     = (ANDROID、IOS)
+
+返回数据
+
+{
+    "status":"400",
+    "content":"登陆成功！",
+    "data":{
+        "user_id":"6545",
+        "email":"",
+        "user_name":"15918585473",
+        "mobile_phone":"15918585473"
+    },
+    "url":"http://threelevel.yun.dodi.cn/mobile/app.php?code=WMH&username=15918585473&login=1&type=IOS"
+}
+
+注册接口
+
+http://threelevel.yun.dodi.cn/api/checkreg.php
+POST
+参数
+
+mobile    = "15918585444";  （用户）
+password  = "15918585444";  （密码）
+real_name = "油瓶";         （姓名）
+code      = "WMH";          （认证参数）
+agreement = "1";            （接受协议）
+type      = (ANDROID、IOS)
+
+返回数据
+
+{
+    "status":"400",
+    "content":"注册成功！",
+    "data":{
+        "user_id":"6558",
+        "email":"",
+        "user_name":"15918585445",
+        "mobile_phone":"15918585445"
+    },
+    "url":"http://threelevel.yun.dodi.cn/mobile/app.php?code=WMH&username=15918585445&login=1&type=IOS"
+}
